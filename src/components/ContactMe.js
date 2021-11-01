@@ -58,7 +58,7 @@ const ContactMe = () => {
             <div className="contact__container w-full bg-gray-800 mt-7 py-10 pl-7 pr-7 flex justify-between rounded-md items-center">
                 <div className="contact__texts">
                     <h3 className="text-gray-50 text-xl mb-5">Are you in need of a Frontend web developer?</h3>
-                    <p className="text-gray-300">Fill up the form and I will get back to you within 12 hours.</p>
+                    <p className="text-gray-300">Fill up the form and I will get back to you within 2 hours.</p>
                     
                     <div className="flex mt-12 border border-green-200 p-5 rounded w-auto hover:border-gray-200 cursor-pointer email__container">
                         <EmailIcon className="text-gray-200 mr-2"/>
