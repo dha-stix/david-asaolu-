@@ -18,12 +18,12 @@ const ContactMe = () => {
     const [message, setMessage] = useState("")
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('Contact', 'template_w4olgwm',contactForm, 'user_emwhAtdfUc9GKCk1hhf89')
+        emailjs.sendForm('Contact', 'template_w4olgwm',"contactForm", 'user_emwhAtdfUc9GKCk1hhf89')
           .then((result) => {
               setEmail("")
               setMessage("")
               setName("")
-              toast("Message delivered! ", {
+              toast("Message delivered, Slide! ", {
                   position: "top-right",
                   type: "success",
                   theme: "dark",
