@@ -55,7 +55,7 @@ const Header = () => {
 
                 <Fade top delay={9000}>
                 <div className="my-10 cta--btns">
-                <a href="https://drive.google.com/file/d/17JCzECv0S8wjBIUi0-hX6oX9SOPB-kRy/view?usp=sharing" rel="noreferrer" className="border font-normal p-3 align-center mr-7 text-green-200 border-green-200 hover:text-gray-50 hover:border-gray-50 resumeBtn" target="_blank"> RESUME </a>
+                <a href="https://drive.google.com/file/d/1ooQYN97S_xcQf0KUR8A3UPTSKvdO_vau/view?usp=sharing" rel="noreferrer" className="border font-normal p-3 align-center mr-7 text-green-200 border-green-200 hover:text-gray-50 hover:border-gray-50 resumeBtn" target="_blank"> RESUME </a>
                 
                 <Link  className="border font-normal p-3 align-center text-green-200 cursor-pointer border-green-200 hover:text-gray-50 hover:border-gray-50 portfolioBtn" activeClass="active" to="portfolio" spy={true} smooth={true} offset={-70} duration={500}>PORTFOLIO</Link>
                 </div>
