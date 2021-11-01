@@ -63,7 +63,7 @@ const Header = () => {
             </div>
           
             <Zoom duration={2000}>
-            <div className="flex items-center justify-center headerImg__container">
+            <div className="flex items-right justify-center headerImg__container">
                <img src={logo} alt="David Asaolu" className="w-3/4 header__img"/>
             </div>
             </Zoom>
